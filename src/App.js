@@ -1,6 +1,8 @@
 import Databinding from "./Databinding/Databinding";
 import HandleEvent from "./HandleEvent/HandleEvent";
 import Home from "./Home/Home";
+import BaiTapRenderMap from "./RenderWithMap/BaiTapRenderMap";
+import RenderWithMap from "./RenderWithMap/RenderWithMap";
 import BaitapState from "./State/BaitapState";
 import DemoState from "./State/DemoState";
 import StyleRender from "./StyleRender/StyleRender";
@@ -19,7 +21,9 @@ function App() {
       {/* <HandleEvent/> */}
       {/* <DemoState/> */}
       {/* <p className='color-red'>StyleRender</p> */}
-      <BaitapState />
+      {/* <BaitapState /> */}
+      {/* <RenderWithMap /> */}
+      <BaiTapRenderMap/>
     </div>
 
   );

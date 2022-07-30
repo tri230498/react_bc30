@@ -1,0 +1,14 @@
+.content {
+  background-image: url(../img/background/avanger.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  background-position: bottom right;
+  filter: brightness(0.8);
+}
+
+.text-overlow {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
