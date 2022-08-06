@@ -1,8 +1,11 @@
 import Databinding from "./Databinding/Databinding";
 import HandleEvent from "./HandleEvent/HandleEvent";
 import Home from "./Home/Home";
-import BaiViet from "./Props/BaiViet";
+import ProductList from "./Props/BaiTapProps/ProductList";
+import BaiTapXemChiTiet from "./Props/BaiTapXemChiTiet/BaiTapXemChiTiet";
+import BaiViet from "./Props/DemoProps/BaiViet";
 import DemoProps from "./Props/DemoProps/DemoProps";
+import ExerciseCarStore from "./Props/ExerciseCarStore/ExerciseCarStore";
 import BaiTapRenderMap from "./RenderWithMap/BaiTapRenderMap";
 import RenderWithMap from "./RenderWithMap/RenderWithMap";
 import BaitapState from "./State/BaitapState";
@@ -15,10 +18,11 @@ import StyleRender from "./StyleRender/StyleRender";
 
 
 
+
 function App() {
   return (
     <div className="App">
-      {/* <Home></Home> */}
+      {/* <Home /> */}
       {/* <Databinding/> */}
       {/* <HandleEvent/> */}
       {/* <DemoState/> */}
@@ -26,7 +30,11 @@ function App() {
       {/* <BaitapState /> */}
       {/* <RenderWithMap /> */}
       {/* <BaiTapRenderMap/> */}
-      <DemoProps />
+      {/* <DemoProps /> */}
+      {/* <ProductList /> */}
+      {/* <BaiTapXemChiTiet /> */}
+      {/* <ExerciseCarStore /> */}
+      {/* <StyleRender /> */}
     </div>
 
   );

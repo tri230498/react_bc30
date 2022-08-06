@@ -63,11 +63,10 @@ export default class BaitapState extends Component {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nisi
           doloribus ratione praesentium sint provident consequatur officia quia,
           qui placeat beatae tempora voluptas accusantium ea? Unde quia maxime
-          veniam rem.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nisi
-          doloribus ratione praesentium sint provident consequatur officia quia,
-          qui placeat beatae tempora voluptas accusantium ea? Unde quia maxime
-          veniam rem.
+          veniam rem. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Illo nisi doloribus ratione praesentium sint provident consequatur
+          officia quia, qui placeat beatae tempora voluptas accusantium ea? Unde
+          quia maxime veniam rem.
         </p>
         <button
           className="btn btn-primary m-2"

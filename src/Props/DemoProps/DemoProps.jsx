@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import BaiViet from "../BaiViet";
+import BaiViet from "./BaiViet";
 import Card from "./Card";
 
 const dsBaiViet = [
